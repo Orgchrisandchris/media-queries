@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    padding: 0 1em;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.main {
+    width: 70%;
+}
+
+.sub-section {
+    width: 30%;
+}
+
+.header-img {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (min-width: 576px) {
+
+    .alert-info {
+        display: none;
+    }
+
+}
+
